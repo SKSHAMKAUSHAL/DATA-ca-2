@@ -6,7 +6,7 @@ const User = require('./schema');
 
 
 //post
-router.post('./save',async()=>{
+router.post('/save',async()=>{
     const{user,date,duration,caloriesBurned,exercise}=req.body;
     if(!user||!date||!duration){
         return res.status(500).json({ "user field are in complete" :error})

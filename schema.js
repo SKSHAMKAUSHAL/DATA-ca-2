@@ -16,7 +16,7 @@ require:true
 caloriesBurned:{
     type:Number
 },
-exercise:[]
+exercise:[type=String]
 })
 
 
